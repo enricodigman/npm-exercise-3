@@ -22,7 +22,7 @@ $ npm install @estilles/expression-parser
 Importing it through using:
 
 ```
-const { parse, resolve, toString, toArray } = require('@estilles/expression-parser')
+const { parse, toString, toArray } = require('@estilles/expression-parser')
 
 ```
 Launching the program as Node.js process:
@@ -70,13 +70,11 @@ Expected Output:
 ```
 toString(parse('(A+B)*C-D')
 ```
-
 Expected Output: A B + C * D -
 
 ```
 toArray(parse('(A+B)*C-D'))
 ```
-
 Expected Output: 
 
 [
