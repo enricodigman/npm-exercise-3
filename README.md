@@ -16,7 +16,7 @@ Program is created with:
 ## Usage
 To run the program, it is to be installed in an existing/new Node.js project locally through npm:
 ```
-$ npm install @estilles/expression-parser
+npm install @estilles/expression-parser
 
 ```
 Importing it through using:
@@ -28,7 +28,7 @@ const { parse, toString, toArray } = require('@estilles/expression-parser')
 Launching the program as Node.js process:
 
 ```
-$ node index.js '<expression>'
+node index.js '<expression>'
 ```
 ## Code Example with Expected Outputs
 ```
